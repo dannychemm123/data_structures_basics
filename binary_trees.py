@@ -90,7 +90,7 @@ print(A2)
 
 def BST(node,target):
     if not node: 
-        return f'{target} was found'
+        return f'{target} was not found'
     if node.value == target:
         return f'{target} was found '
     if target<node.value:
